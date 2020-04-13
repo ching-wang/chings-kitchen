@@ -3,8 +3,8 @@ $font-stack: Helvetica, sans-serif;
 $main-color: white;
 $backgroundColor: tomato;
 $text-background: #fbfbf8;
-$content-margin: 10px;
-$page-margin: 30px;
+$content-margin: 5vw;
+$page-margin: 7vw;
 
 // $grid-columns: 12;
 // $grid-gutter-width: 30px;
@@ -39,8 +39,8 @@ body {
   margin: $page-margin;
 }
 
-.description {
-  margin: $content-margin;
+.recipe-image-name {
+  margin: 10px;
   &:hover {
     color: black;
   }
@@ -50,16 +50,35 @@ body {
   background-color: $text-background;
   color: #333333;
   margin: $content-margin;
-  padding: 20px;
+  padding: 10vw 10vw 30vw 10vw;
 }
 
 #description-content {
-  font-size: x-large;
+  font-size: 3vw;
+  font-family: "Bad Script", cursive;
 }
 
-#about-title {
-  font-size: xx-large;
-  margin: $page-margin;
+#story {
+  font-size: 5vw;
   font-family: "Bad Script", cursive;
   padding-bottom: 5px;
+}
+
+.brand-title {
+  font-family: "Advent Pro", sans-serif;
+}
+
+@media (min-width: 992px) {
+  #story {
+    font-size: 25px;
+    font-family: "Bad Script", cursive;
+  }
+  #description-content {
+    font-size: 20px;
+    font-family: "Bad Script", cursive;
+  }
+
+  #about-container {
+    padding-bottom: 40vw;
+  }
 }

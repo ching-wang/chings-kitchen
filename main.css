@@ -4,26 +4,41 @@ body {
   text-align: center; }
 
 .page-content {
-  margin: 30px; }
+  margin: 7vw; }
 
-.description {
+.recipe-image-name {
   margin: 10px; }
-  .description:hover {
+  .recipe-image-name:hover {
     color: black; }
 
 #about-container {
   background-color: #fbfbf8;
   color: #333333;
-  margin: 10px;
-  padding: 20px; }
+  margin: 5vw;
+  padding: 10vw 10vw 30vw 10vw; }
 
 #description-content {
-  font-size: x-large; }
+  font-size: 3vw;
+  font-family: "Bad Script", cursive; }
 
-#about-title {
-  font-size: xx-large;
-  margin: 30px;
+#story {
+  font-size: 5vw;
   font-family: "Bad Script", cursive;
   padding-bottom: 5px; }
+
+.brand-title {
+  font-family: "Advent Pro", sans-serif; }
+
+@media (min-width: 992px) {
+  #story {
+    font-size: 25px;
+    font-family: "Bad Script", cursive; }
+
+  #description-content {
+    font-size: 20px;
+    font-family: "Bad Script", cursive; }
+
+  #about-container {
+    padding-bottom: 40vw; } }
 
 /*# sourceMappingURL=main.css.map */
