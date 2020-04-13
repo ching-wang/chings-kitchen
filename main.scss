@@ -1,0 +1,9 @@
+$font-stack: Helvetica, sans-serif;
+$main-color: purple;
+$backgroundColor: tomato;
+
+body {
+  font: 100% $font-stack;
+  color: $main-color;
+  background-color: $backgroundColor;
+}
