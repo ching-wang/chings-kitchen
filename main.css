@@ -4,7 +4,7 @@ body {
   text-align: center; }
 
 .page-content {
-  margin: 7vw; }
+  margin: 4vw; }
 
 .recipe-image-name {
   margin: 10px; }
@@ -24,7 +24,7 @@ body {
 #story {
   font-size: 5vw;
   font-family: "Bad Script", cursive;
-  padding-bottom: 3vw; }
+  padding-bottom: 2vw; }
 
 .brand-title {
   font-family: "Advent Pro", sans-serif; }
