@@ -15,7 +15,7 @@ body {
   background-color: #fbfbf8;
   color: #333333;
   margin: 5vw;
-  padding: 10vw 10vw 30vw 10vw; }
+  padding: 5vw 10vw 30vw 10vw; }
 
 #description-content {
   font-size: 3vw;
@@ -24,14 +24,14 @@ body {
 #story {
   font-size: 5vw;
   font-family: "Bad Script", cursive;
-  padding-bottom: 5px; }
+  padding-bottom: 3vw; }
 
 .brand-title {
   font-family: "Advent Pro", sans-serif; }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199.98px) {
   #story {
-    font-size: 25px;
+    font-size: 30px;
     font-family: "Bad Script", cursive; }
 
   #description-content {
@@ -40,5 +40,19 @@ body {
 
   #about-container {
     padding-bottom: 40vw; } }
+@media (min-width: 1200px) {
+  #story {
+    font-size: 45px;
+    font-family: "Bad Script", cursive; }
+
+  #description-content {
+    font-size: 30px;
+    font-family: "Bad Script", cursive; }
+
+  #about-container {
+    padding-bottom: 40vw; } }
+.img.mg-fluid.rounded {
+  width: 105%;
+  transition: all 0.3s; }
 
 /*# sourceMappingURL=main.css.map */
