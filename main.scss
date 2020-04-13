@@ -1,6 +1,10 @@
 $font-stack: Helvetica, sans-serif;
+// $font-option-one: "Bad Script", cursive;
 $main-color: white;
 $backgroundColor: tomato;
+$text-background: #fbfbf8;
+$content-margin: 10px;
+$page-margin: 30px;
 
 // $grid-columns: 12;
 // $grid-gutter-width: 30px;
@@ -31,18 +35,31 @@ body {
   text-align: center;
 }
 
-.page-template {
-  margin: 30px;
+.page-content {
+  margin: $page-margin;
 }
 
-// .description {
-//   margin: 10px;
-//   &:hover {
-//     color: yellow;
-//   }
-// }
+.description {
+  margin: $content-margin;
+  &:hover {
+    color: black;
+  }
+}
 
-// .row.row-cols-1.row-cols-sm-2.row-cols-md-4 {
-//   display: flex;
-//   flex-wrap: wrap;
-// }
+#about-container {
+  background-color: $text-background;
+  color: #333333;
+  margin: $content-margin;
+  padding: 20px;
+}
+
+#description-content {
+  font-size: x-large;
+}
+
+#about-title {
+  font-size: xx-large;
+  margin: $page-margin;
+  font-family: "Bad Script", cursive;
+  padding-bottom: 5px;
+}
