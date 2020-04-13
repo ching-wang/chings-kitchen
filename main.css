@@ -4,7 +4,7 @@ body {
   text-align: center; }
 
 .page-content {
-  margin: 7vw; }
+  margin: 5vw; }
 
 .recipe-image-name {
   margin: 10px; }
@@ -24,29 +24,37 @@ body {
 #story {
   font-size: 5vw;
   font-family: "Bad Script", cursive;
-  padding-bottom: 3vw; }
+  padding-bottom: 2vw; }
 
 .brand-title {
   font-family: "Advent Pro", sans-serif; }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  #story {
-    font-size: 30px;
-    font-family: "Bad Script", cursive; }
+  #story,
+  .page-title {
+    font-size: 30px; }
 
   #description-content {
-    font-size: 20px;
-    font-family: "Bad Script", cursive; }
+    font-size: 20px; }
 
   #about-container {
-    padding-bottom: 40vw; } }
+    padding-bottom: 40vw; }
+
+  .page-title,
+  #story,
+  #description-content {
+    font-family: "Bad Script", cursive; } }
 @media (min-width: 1200px) {
-  #story {
-    font-size: 45px;
-    font-family: "Bad Script", cursive; }
+  #story,
+  .page-title {
+    font-size: 45px; }
 
   #description-content {
-    font-size: 30px;
+    font-size: 30px; }
+
+  .page-title,
+  #story,
+  #description-content {
     font-family: "Bad Script", cursive; }
 
   #about-container {
