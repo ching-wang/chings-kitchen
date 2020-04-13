@@ -1,6 +1,18 @@
 body {
   font: 100% Helvetica, sans-serif;
-  color: purple;
-  background-color: tomato; }
+  color: white;
+  background-color: tomato;
+  text-align: center; }
+
+.page-template {
+  margin: 30px; }
+
+.description {
+  margin: 10px; }
+  .description:hover {
+    color: yellow; }
+
+.img {
+  background-color: yellow; }
 
 /*# sourceMappingURL=main.css.map */

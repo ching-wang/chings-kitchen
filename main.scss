@@ -1,9 +1,25 @@
 $font-stack: Helvetica, sans-serif;
-$main-color: purple;
+$main-color: white;
 $backgroundColor: tomato;
 
 body {
   font: 100% $font-stack;
   color: $main-color;
   background-color: $backgroundColor;
+  text-align: center;
+}
+
+.page-template {
+  margin: 30px;
+}
+
+.description {
+  margin: 10px;
+  &:hover {
+    color: yellow;
+  }
+}
+
+.img {
+  background-color: yellow;
 }
