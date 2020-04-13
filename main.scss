@@ -1,25 +1,65 @@
 $font-stack: Helvetica, sans-serif;
+// $font-option-one: "Bad Script", cursive;
 $main-color: white;
 $backgroundColor: tomato;
+$text-background: #fbfbf8;
+$content-margin: 10px;
+$page-margin: 30px;
+
+// $grid-columns: 12;
+// $grid-gutter-width: 30px;
+
+// $grid-breakpoints: (
+//   // Extra small screen / phone
+//     xs: 0,
+//   // Small screen / phone
+//     sm: 576px,
+//   // Medium screen / tablet
+//     md: 768px,
+//   // Large screen / desktop
+//     lg: 992px,
+//   // Extra large screen / wide desktop
+//     xl: 1200px
+// );
+
+// $container-max-widths: (
+//   sm: 540px,
+//   md: 720px,
+//   lg: 960px,
+//   xl: 1140px,
+// );
 
 body {
-  font: 100% $font-stack;
   color: $main-color;
   background-color: $backgroundColor;
   text-align: center;
 }
 
-.page-template {
-  margin: 30px;
+.page-content {
+  margin: $page-margin;
 }
 
 .description {
-  margin: 10px;
+  margin: $content-margin;
   &:hover {
-    color: yellow;
+    color: black;
   }
 }
 
-.img {
-  background-color: yellow;
+#about-container {
+  background-color: $text-background;
+  color: #333333;
+  margin: $content-margin;
+  padding: 20px;
+}
+
+#description-content {
+  font-size: x-large;
+}
+
+#about-title {
+  font-size: xx-large;
+  margin: $page-margin;
+  font-family: "Bad Script", cursive;
+  padding-bottom: 5px;
 }

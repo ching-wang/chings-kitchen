@@ -1,18 +1,29 @@
 body {
-  font: 100% Helvetica, sans-serif;
   color: white;
   background-color: tomato;
   text-align: center; }
 
-.page-template {
+.page-content {
   margin: 30px; }
 
 .description {
   margin: 10px; }
   .description:hover {
-    color: yellow; }
+    color: black; }
 
-.img {
-  background-color: yellow; }
+#about-container {
+  background-color: #fbfbf8;
+  color: #333333;
+  margin: 10px;
+  padding: 20px; }
+
+#description-content {
+  font-size: x-large; }
+
+#about-title {
+  font-size: xx-large;
+  margin: 30px;
+  font-family: "Bad Script", cursive;
+  padding-bottom: 5px; }
 
 /*# sourceMappingURL=main.css.map */
