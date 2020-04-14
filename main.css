@@ -1,6 +1,6 @@
 body {
   color: white;
-  background-color: tomato;
+  background-color: #f19483;
   text-align: center; }
 
 .page-content {
@@ -62,5 +62,17 @@ body {
 .img.mg-fluid.rounded {
   width: 105%;
   transition: all 0.3s; }
+
+.bg {
+  background-image: url("https://images.unsplash.com/photo-1523905330026-b8bd1f5f320e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"); }
+
+#table-section {
+  padding-top: 3vw; }
+
+.th-colour {
+  background-color: #f19483; }
+
+.tr-color {
+  background-color: #bdc0ba; }
 
 /*# sourceMappingURL=main.css.map */
