@@ -47,7 +47,8 @@ article {
 }
 
 .recipe-grid-cell {
-  margin-bottom: 1.5em;
+  margin-bottom: 0.8em;
+  margin-top: 0.5em;
   font-family: $font-brand;
 }
 
@@ -92,4 +93,13 @@ h6 {
 
 .tr-color {
   background-color: $tr-color;
+}
+
+.brand-title {
+  font-size: 2em;
+}
+
+.description {
+  text-align: center;
+  font-size: 0.8em;
 }
