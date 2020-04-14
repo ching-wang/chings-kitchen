@@ -1,7 +1,7 @@
 $font-stack: Helvetica, sans-serif;
 // $font-option-one: "Bad Script", cursive;
 $main-color: white;
-$backgroundColor: tomato;
+$backgroundColor: #f19483;
 $text-background: #fbfbf8;
 $content-margin: 5vw;
 $page-margin: 5vw;
@@ -111,4 +111,8 @@ body {
 .img.mg-fluid.rounded {
   width: 105%;
   transition: all 0.3s;
+}
+
+.bg {
+  background-image: url("https://images.unsplash.com/photo-1523905330026-b8bd1f5f320e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
 }
