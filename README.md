@@ -1,4 +1,7 @@
-# Project 0 -
+# Project 0
+
+This is one of the assisment of CS50 [CS50's Web Programming with Python and JavaScript](<
+https://docs.cs50.net/web/2020/x/projects/0/project0.html>)
 
 ### Title - Ching's Kitchen
 
