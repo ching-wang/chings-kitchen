@@ -40,13 +40,6 @@ body {
   margin: $page-margin;
 }
 
-.recipe-image-name {
-  margin: 10px;
-  &:hover {
-    color: black;
-  }
-}
-
 #about-container {
   background-color: $text-background;
   color: #333333;
@@ -69,6 +62,12 @@ body {
   font-family: "Advent Pro", sans-serif;
 }
 
+@media (min-width: 360px) and (max-width: 767.98px) {
+  .recipe-image-span {
+    margin: 3vw;
+  }
+}
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
   #story,
   .page-title {
@@ -86,6 +85,10 @@ body {
   #story,
   #description-content {
     font-family: "Bad Script", cursive;
+  }
+
+  .recipe-image-span {
+    margin: 1.5vw;
   }
 }
 
@@ -106,6 +109,10 @@ body {
 
   #about-container {
     padding-bottom: 40vw;
+  }
+
+  .recipe-image-span {
+    margin: 1.5vw;
   }
 }
 
