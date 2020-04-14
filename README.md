@@ -1,11 +1,13 @@
 # Project 0
 
-This is one of the assisment of CS50 [CS50's Web Programming with Python and JavaScript](<
-https://docs.cs50.net/web/2020/x/projects/0/project0.html>)
+This is one of the assessment of my online course
+[CS50's Web Programming with Python and JavaScript]("https://docs.cs50.net/web/2020/x/projects/0/project0.html/"). The website is built with `HTML`, `CSS`, `SASS` and [`Bootstrap v4.4.1`]('https://getbootstrap.com/')
+
+Deployed to Netlify
+
+https://chings-kitchen.netlify.com/
 
 ### Title - Ching's Kitchen
-
-Built with `HTML`, `CSS`, and `SASS`
 
 ### File Structure
 
