@@ -6,11 +6,6 @@ body {
 .page-content {
   margin: 5vw; }
 
-.recipe-image-name {
-  margin: 10px; }
-  .recipe-image-name:hover {
-    color: black; }
-
 #about-container {
   background-color: #fbfbf8;
   color: #333333;
@@ -29,6 +24,9 @@ body {
 .brand-title {
   font-family: "Advent Pro", sans-serif; }
 
+@media (min-width: 360px) and (max-width: 767.98px) {
+  .recipe-image-span {
+    margin: 3vw; } }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   #story,
   .page-title {
@@ -43,7 +41,10 @@ body {
   .page-title,
   #story,
   #description-content {
-    font-family: "Bad Script", cursive; } }
+    font-family: "Bad Script", cursive; }
+
+  .recipe-image-span {
+    margin: 1.5vw; } }
 @media (min-width: 1200px) {
   #story,
   .page-title {
@@ -58,7 +59,10 @@ body {
     font-family: "Bad Script", cursive; }
 
   #about-container {
-    padding-bottom: 40vw; } }
+    padding-bottom: 40vw; }
+
+  .recipe-image-span {
+    margin: 1.5vw; } }
 .img.mg-fluid.rounded {
   width: 105%;
   transition: all 0.3s; }
