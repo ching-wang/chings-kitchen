@@ -1,3 +1,5 @@
+@import "mixins";
+
 $font-stack: Helvetica, sans-serif;
 // $font-option-one: "Bad Script", cursive;
 $main-color: white;
@@ -7,33 +9,10 @@ $tr-color: #bdc0ba;
 $content-margin: 5vw;
 $page-margin: 5vw;
 
-// $grid-columns: 12;
-// $grid-gutter-width: 30px;
-
-// $grid-breakpoints: (
-//   // Extra small screen / phone
-//     xs: 0,
-//   // Small screen / phone
-//     sm: 576px,
-//   // Medium screen / tablet
-//     md: 768px,
-//   // Large screen / desktop
-//     lg: 992px,
-//   // Extra large screen / wide desktop
-//     xl: 1200px
-// );
-
-// $container-max-widths: (
-//   sm: 540px,
-//   md: 720px,
-//   lg: 960px,
-//   xl: 1140px,
-// );
-
 body {
   color: $main-color;
   background-color: $backgroundColor;
-  text-align: center;
+  font-size: 20px;
 }
 
 .page-content {
@@ -41,84 +20,67 @@ body {
 }
 
 #about-container {
+  font-family: "Bad Script", cursive;
   background-color: $text-background;
   color: #333333;
   margin: $content-margin;
-  padding: 5vw 10vw 30vw 10vw;
-}
+  padding: 1em;
 
-#description-content {
-  font-size: 3vw;
-  font-family: "Bad Script", cursive;
+  @include small-up {
+    padding: 2em;
+  }
 }
 
 #story {
-  font-size: 5vw;
+  // font-size: 5vw;
   font-family: "Bad Script", cursive;
   padding-bottom: 2vw;
 }
 
-.brand-title {
+.navbar-chings-kitchen {
   font-family: "Advent Pro", sans-serif;
 }
 
-@media (min-width: 360px) and (max-width: 767.98px) {
-  .recipe-image-span {
+.recipe-image-span {
+  @include small-only {
     margin: 3vw;
+  }
+
+  @include large {
+    margin: 1.5vw;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  #story,
-  .page-title {
+  #story {
     font-size: 30px;
-  }
-  #description-content {
-    font-size: 20px;
   }
 
   #about-container {
     padding-bottom: 40vw;
   }
 
-  .page-title,
-  #story,
-  #description-content {
+  #story {
     font-family: "Bad Script", cursive;
-  }
-
-  .recipe-image-span {
-    margin: 1.5vw;
   }
 }
 
 @media (min-width: 1200px) {
-  #story,
-  .page-title {
+  #story {
     font-size: 45px;
   }
-  #description-content {
-    font-size: 30px;
-  }
 
-  .page-title,
-  #story,
-  #description-content {
+  #story {
     font-family: "Bad Script", cursive;
   }
 
   #about-container {
     padding-bottom: 40vw;
   }
-
-  .recipe-image-span {
-    margin: 1.5vw;
-  }
 }
 
-.img.mg-fluid.rounded {
-  width: 105%;
-  transition: all 0.3s;
+.page-title {
+  text-align: center;
 }
 
 .bg {
