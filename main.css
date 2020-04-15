@@ -1,0 +1,73 @@
+body {
+  color: white;
+  background-color: #f19483;
+  font-size: 20px; }
+
+@media (min-width: 480px) {
+  .page-content {
+    margin: 5vw; } }
+
+#about-container {
+  background-color: #fbfbf8;
+  color: #333333;
+  margin: 5vw;
+  padding: 1em; }
+  @media (min-width: 480px) {
+    #about-container {
+      padding: 2em; } }
+
+article {
+  margin: auto;
+  max-width: 40em;
+  line-height: 1.8em; }
+
+.article-section {
+  margin-bottom: 2em; }
+
+.navbar-chings-kitchen {
+  font-family: "Advent Pro", sans-serif; }
+
+.recipe-grid-cell {
+  margin-bottom: 0.8em;
+  margin-top: 0.6em;
+  font-family: "Bad Script", cursive; }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #about-container {
+    padding-bottom: 40vw; } }
+@media (min-width: 1200px) {
+  #about-container {
+    padding-bottom: 40vw; } }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bad Script", cursive;
+  margin: 0.6em auto 1.5em; }
+
+.page-title {
+  font-family: "Bad Script", cursive;
+  text-align: center; }
+
+.bg {
+  background-image: url("https://images.unsplash.com/photo-1523905330026-b8bd1f5f320e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"); }
+
+#table-section {
+  padding-top: 3vw; }
+
+.th-colour {
+  background-color: #f19483; }
+
+.tr-color {
+  background-color: #bdc0ba; }
+
+.brand-title {
+  font-size: 2em; }
+
+.description {
+  text-align: center;
+  font-size: 0.8em; }
+
+/*# sourceMappingURL=main.css.map */
