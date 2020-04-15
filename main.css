@@ -1,5 +1,4 @@
 body {
-  color: white;
   background-color: #f19483;
   font-size: 20px; }
 
@@ -63,11 +62,12 @@ h6 {
 .tr-color {
   background-color: #bdc0ba; }
 
-.brand-title {
-  font-size: 2em; }
-
 .description {
   text-align: center;
   font-size: 0.8em; }
+
+.navbar-light .navbar-brand {
+  color: #f19483;
+  font-size: 1.5em; }
 
 /*# sourceMappingURL=main.css.map */
