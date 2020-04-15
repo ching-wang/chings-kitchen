@@ -10,14 +10,34 @@ $page-margin: 5vw;
 $font-brand: "Bad Script", cursive;
 
 body {
-  // color: $main-color;
+  color: $main-color;
   background-color: $backgroundColor;
   font-size: 20px;
+}
+
+table {
+  @include small-down {
+    font-size: small;
+  }
 }
 
 .page-content {
   @include small-up {
     margin: $page-margin;
+  }
+}
+
+.page-title {
+  text-align: center;
+
+  @include small-down {
+    font-size: 1em;
+  }
+}
+
+.description-content {
+  @include small-down {
+    font-size: small;
   }
 }
 
@@ -29,6 +49,10 @@ body {
 
   @include small-up {
     padding: 2em;
+  }
+
+  @include medium-up {
+    padding: 1em;
   }
 }
 
@@ -52,17 +76,17 @@ article {
   font-family: $font-brand;
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  #about-container {
-    padding-bottom: 40vw;
-  }
-}
+// @media (min-width: 992px) and (max-width: 1199.98px) {
+//   #about-container {
+//     padding-bottom: 40vw;
+//   }
+// }
 
-@media (min-width: 1200px) {
-  #about-container {
-    padding-bottom: 40vw;
-  }
-}
+// @media (min-width: 1200px) {
+//   #about-container {
+//     padding-bottom: 40vw;
+//   }
+// }
 
 h1,
 h2,
@@ -72,11 +96,6 @@ h5,
 h6 {
   font-family: $font-brand;
   margin: 0.6em auto 1.5em;
-}
-
-.page-title {
-  font-family: $font-brand;
-  text-align: center;
 }
 
 .bg {
