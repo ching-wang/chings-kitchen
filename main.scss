@@ -1,7 +1,7 @@
 @import "mixins";
 
 $font-stack: Helvetica, sans-serif;
-$main-color: #333333;
+$main-color: #696462;
 $backgroundColor: #f19483;
 $text-background: #fbfbf8;
 $tr-color: #bdc0ba;
@@ -10,7 +10,7 @@ $page-margin: 5vw;
 $font-brand: "Bad Script", cursive;
 
 body {
-  // color: $main-color;
+  color: $main-color;
   background-color: $backgroundColor;
   font-size: 20px;
 }
