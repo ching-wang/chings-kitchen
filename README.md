@@ -7,6 +7,9 @@ Deployed to Netlify
 
 https://chings-kitchen.netlify.com/
 
+Demo is availibe on youtube
+https://youtu.be/j8fGVVJlzxM
+
 ### Title - Ching's Kitchen
 
 ### File Structure
