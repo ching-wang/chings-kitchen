@@ -1,81 +1,25 @@
-body {
-  color: #696462;
-  background-color: #f19483;
-  font-size: 20px; }
+/*
+Errno::ENOENT: No such file or directory @ rb_sysopen - main.scss
 
-@media (max-width: 767px) {
-  table {
-    font-size: small; } }
-
-@media (min-width: 480px) {
-  .page-content {
-    margin: 5vw; } }
-
-.page-title {
-  text-align: center; }
-  @media (max-width: 767px) {
-    .page-title {
-      font-size: 1em; } }
-
-@media (max-width: 767px) {
-  .description-content {
-    font-size: small; } }
-
-#about-container {
-  background-color: #fbfbf8;
-  color: #333333;
-  margin: 5vw;
-  padding: 1em; }
-  @media (min-width: 480px) {
-    #about-container {
-      padding: 2em; } }
-  @media (min-width: 768px) {
-    #about-container {
-      padding: 1em; } }
-
-article {
-  margin: auto;
-  max-width: 40em;
-  line-height: 1.8em; }
-
-.article-section {
-  margin-bottom: 2em; }
-
-.navbar-chings-kitchen {
-  font-family: "Advent Pro", sans-serif; }
-
-.recipe-grid-cell {
-  margin-bottom: 0.8em;
-  margin-top: 0.6em;
-  font-family: "Bad Script", cursive; }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Bad Script", cursive;
-  margin: 0.6em auto 1.5em; }
-
-.bg {
-  background-image: url("https://images.unsplash.com/photo-1523905330026-b8bd1f5f320e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"); }
-
-#table-section {
-  padding-top: 3vw; }
-
-.th-colour {
-  background-color: #f19483; }
-
-.tr-color {
-  background-color: #bdc0ba; }
-
-.description {
-  text-align: center;
-  font-size: 0.8em; }
-
-.navbar-light .navbar-brand {
-  color: #f19483;
-  font-size: 1.5em; }
-
-/*# sourceMappingURL=main.css.map */
+Backtrace:
+/Users/qingwang/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:454:in `read'
+/Users/qingwang/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:454:in `update_stylesheet'
+/Users/qingwang/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/qingwang/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/qingwang/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/qingwang/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:294:in `watch'
+/Users/qingwang/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/plugin.rb:109:in `method_missing'
+/Users/qingwang/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:358:in `watch_or_update'
+/Users/qingwang/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/qingwang/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+/Users/qingwang/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+/Users/qingwang/.rvm/gems/ruby-2.6.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
+/Users/qingwang/.rvm/gems/ruby-2.6.0/bin/sass:23:in `load'
+/Users/qingwang/.rvm/gems/ruby-2.6.0/bin/sass:23:in `<main>'
+/Users/qingwang/.rvm/gems/ruby-2.6.0/bin/ruby_executable_hooks:24:in `eval'
+/Users/qingwang/.rvm/gems/ruby-2.6.0/bin/ruby_executable_hooks:24:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - main.scss"; }
