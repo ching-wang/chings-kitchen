@@ -27,3 +27,6 @@ def recipe():
 @app.route("/popular")
 def popular():
     return render_template("popular.html")
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0')
