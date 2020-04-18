@@ -1,4 +1,5 @@
 .sass-cache
 .vscode
 .env
+.venv
 __pycache__/*
