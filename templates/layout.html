@@ -43,7 +43,6 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item active">
@@ -58,13 +57,12 @@
             <a class="nav-link" href="{{ url_for('recipe')}}">Recipes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="popular.html">Most Popular</a>
+            <a class="nav-link" href="{{ url_for('popular')}}">Most Popular</a>
           </li>
         </ul>
       </div>
       {% endblock %}
     </nav>
-    <!-- <div class="bg"></div> -->
     <section class="page-content">
       {% block content %} {% endblock %}
     </section>

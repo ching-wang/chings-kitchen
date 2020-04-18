@@ -22,3 +22,8 @@ def about():
 @app.route("/recipe")
 def recipe():
     return render_template("recipe.html")
+
+
+@app.route("/popular")
+def popular():
+    return render_template("popular.html")
