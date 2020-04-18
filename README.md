@@ -3,9 +3,9 @@
 This is one of the assessment of my online course
 [CS50's Web Programming with Python and JavaScript]("https://docs.cs50.net/web/2020/x/projects/0/project0.html/"). The website is built with `HTML`, `CSS`, `SASS` and [`Bootstrap v4.4.1`]('https://getbootstrap.com/')
 
-Deployed to Netlify
+Deployed to AWS on EC2 with WSGI and Nginx:
 
-https://chings-kitchen.netlify.com/
+http://chings-kitchen.ching-wang.io/
 
 Demo is availibe on youtube
 https://youtu.be/j8fGVVJlzxM
