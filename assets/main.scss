@@ -35,24 +35,6 @@ table {
   }
 }
 
-//remove this after demo
-// @media (min-width: 480px) AND (min-width: 991px) {
-//   .about-container {
-//     padding: 2em;
-//   }
-// }
-// @media (min-width: 992px) and (max-width: 1199.98px) {
-//   .about-container {
-//     padding: 1.5em;
-//   }
-// }
-
-// @media (min-width: 1200px) {
-//   .about-container {
-//     padding: 1em;
-//   }
-// }
-
 .description-content {
   @include small-down {
     font-size: small;
